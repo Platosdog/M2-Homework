@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Registration</title>
+	</head>
+
+	<body>
+        <p>Thank you for taking the time to fill this form out!!</p>
+		<form action="/registration-page" method="post">
+			<ul>
+                Name:
+                <input type="text" required name="name" /><br/>
+                Tel:     
+                <input type="tel" minlength="10" maxlength="11"value="(000) 000-0000"><br/>
+                Email:
+                <input type="email" value="email@email.com"><br/>
+                Comments:
+                <input type="comments" minlength="5" maxlength="300"value="Please write comments" ><br/>
+            <p>  Your Favorite Food </p> 
+                <div>
+                    Cheeseburger:
+                    <input type="radio" id="Cheeseburger" name="Cheeseburger" value="Cheeseburger">
+                    <br/> Taco's:
+                    <input type="radio" id="Taco" name="Taco" value="Taco">
+                    <br/> Pizza:
+                    <input type="radio" id="Pizza" name="Pizza" value="Pizza">
+                    <br/> Soup:
+                    <input type="radio" id="Soup" name="Soup" value="Soup">
+                </div>
+            
+                <p> Your Favorite Drink </p>     
+                  <div>
+                    Beer:
+                    <input type="radio" id="Beer" name="drink2" value="Beer" checked>
+                    <br/> Cola:
+                    <input type="radio" id="Cola" name="drink2" value="Cola">
+                    <br/> Tea:
+                    <input type="radio" id="Tea" name="drink2" value="Tea">
+                    <br/> Coffee:
+                    <input type="radio" id="Coffee" name="drink2" value="Coffee">
+                  </div>
+                  <p>     </p>
+                     
+				<li class="button">
+					<button type="submit">Submit Your Response</button>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
